@@ -1,0 +1,256 @@
+:root {
+    --brand-color:#212121;
+    --bacraund-color-button:#2196F3;
+    --p-color:#757575;
+    --hero-white: #ffffff;
+    --fon:#2F303A;
+}
+
+
+
+/* King tags */
+
+
+body {
+    color:var(--p-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+
+
+.list {
+    text-decoration: none;
+    list-style:none;
+}
+
+
+
+
+/* Logo (logo span) */
+
+.logo {
+    color: var(--brand-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    }
+
+.logoweb {
+    color: var(--bacraund-color-button);
+}
+
+
+.link {
+    color: var(--brand-color);
+    text-decoration:none;
+    font-weight: 500;
+    line-height: 1.14;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+.link:hover {
+    color: var(--bacraund-color-button);
+}
+
+.active {
+    color: var(--bacraund-color-button);
+}
+
+.nav-header .link {
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-header .link:focus,
+.nav-header .link:hover {
+    color: var(--bacraund-color-button)
+}
+
+.adres-header a {
+    color: var(--p-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.adres-footer {
+    color: var(--p-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    font-style:normal;
+}
+
+.adres-footer:hover {
+    color: var(--bacraund-color-button);
+}
+
+.adres-header a:focus,
+.adres-header a:hover {
+    color: var(--bacraund-color-button)
+}
+
+
+/* Hero  block */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--hero-white);
+    text-transform: uppercase;
+}
+
+
+
+/* Button Hero */
+
+
+.hero-button {
+    font-family: 'Roboto';
+    cursor: pointer; 
+    background: var(--bacraund-color-button);
+    border-radius: 4px;
+    color: var(--hero-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    border: 0;
+    letter-spacing: 0.06em
+}
+
+.hero-button:focus,
+.hero-button:hover {
+    background-color: var(--hero-white);
+    color: var(--bacraund-color-button);
+}
+
+/* Button filtr */
+
+.botton-filtr {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--brand-color);
+    text-align: center;
+    border: 0;
+    background-color: var(--hero-white);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botton-filtr:focus, 
+.botton-filtr:hover {
+    background-color: var(--bacraund-color-button);
+    color: var(--hero-white);
+
+}
+
+.botton-filtr :focus,
+.botton-filtr :hover {
+    cursor: pointer;
+    background-color: var(--bacraund-color-button);
+    color: aqua;
+}
+
+
+
+/* TEXT MAIN */
+
+.size-info {
+    color: var(--brand-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.size-info-p {
+    color: var(--p-color);
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: normal;
+
+}
+
+/* Portfolio */
+
+.us-work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--brand-color);
+}
+
+.delopers {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--brand-color);
+    line-height: 1.18;
+}
+
+.delopers-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9;
+}
+
+
+
+.logo-footer {
+    color: var(--hero-white);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.str {
+    color: var(--hero-white);
+    font-style:normal;
+}
+
+.str:hover {
+    color: var(--bacraund-color-button);
+}
+
+.footer-all {
+    background-color: var(--fon)
+}
+
+/* Menu portfolio */
+
+.menu-p {
+    color: var(--p-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.menu-h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.77;
+    letter-spacing: 0.06em;
+    list-style:none;
+    text-decoration:none;
+    color: var(--brand-color);
+}
+
+.filtr {
+     display: none;
+}
