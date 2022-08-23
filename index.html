@@ -9,24 +9,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,400&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!--SiteBar-->
     <header class="page-header">
+      <div class="container">
       <nav>
         <a class="logo list" lang="en" href="/"
-          ><span class="logoweb">Web</span>Studio</a
-        >
+          ><span class="logoweb">Web</span>Studio</a>
         <ul class="list">
-          <li><a class="link active" href="./index.html">Студія</a></li>
-          <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="link active" href="/index.html">Студія</a></li>
+          <li><a class="link" href="/portfolio.html">Портфоліо</a></li>
           <li><a class="link" href="/">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="adres-header list">
+      <ul class="adres-headerr list">
         <li>
           <a class="list" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -34,17 +34,19 @@
         </li>
         <li><a class="list" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
+    </div>
     </header>
     <main>
       <!--BlockHero-->
       <section class="hero">
-        <h1 class="hero-text">Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="hero-text">Ефективні рішення для <br> вашого бізнесу</h1>
         <button class="hero-button" type="button">Замовити послугу</button>
       </section>
       <!--TEXT MAIN-->
       <section>
+        <div class="container">
         <h2 style="display: none">Наші Переваги</h2>
-        <ul class="list">
+        <ul class="info-p list">
           <li>
             <h3 class="size-info">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
@@ -73,10 +75,13 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
+      <!-- Us work -->
       <section>
+        <div class="container">
         <h2 class="us-work">Чим ми займаємося</h2>
-        <ul class="list">
+        <ul class="us-img  list">
           <li>
             <img
               src="./images/part1.jpg"
@@ -102,10 +107,13 @@
             />
           </li>
         </ul>
+      </div>
       </section>
+      <!-- Our team -->
       <section>
+        <div class="container">
         <h2 class="us-work">Наша команда</h2>
-        <ul class="list">
+        <ul class="us-team list">
           <li>
             <img
               src="./images/people/p1.jpg"
@@ -147,30 +155,28 @@
             <p class="delopers-p" lang="en">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <!--adress footer-->
-    <footer class="footer-all">
-      <div>
+    <footer >
+      <div class="container footer-all">
         <a class="logo-footer list" lang="en" href="/"
-          ><span class="logoweb">Web</span>Studio</a
-        >
-        <address>
-          <ul class="adres-footer list">
+          ><span class= "logoweb">Web</span>Studio</a>
+        <address class="addres">
+          <ul class="addres-ul list">
             <li>
               <a class="str list" href="https://goo.gl/maps/yThBwbWwu9JTvZc1A"
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
             <li>
-              <a class="list adres-footer" href="mailto:info@devstudio.com"
+              <a class="adres-footer list" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="list adres-footer" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+              <a class="adres-footer list" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>

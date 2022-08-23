@@ -6,31 +6,36 @@
     --fon:#2F303A;
 }
 
-
-
 /* King tags */
-
-
 body {
-    color:var(--p-color);
+    color: var(--p-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-    font-size: 14px;
+    width: 1600px;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px solid tomato;
+}
 
 .list {
     text-decoration: none;
     list-style:none;
 }
 
+/*  Reset */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
 
-
-
-/* Logo (logo span) */
+/* LogoTipe (logo span) */
 
 .logo {
-    color: var(--brand-color);
+    color: #000;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -41,13 +46,13 @@ body {
     color: var(--bacraund-color-button);
 }
 
+/* Naw Header */
 
 .link {
     color: var(--brand-color);
     text-decoration:none;
     font-weight: 500;
-    line-height: 1.14;
-    font-size: 14px;
+    line-height: 16px;
     letter-spacing: 0.02em;
 }
 .link:hover {
@@ -58,49 +63,27 @@ body {
     color: var(--bacraund-color-button);
 }
 
-.nav-header .link {
-    color: var(--brand-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
+/* Nav adress */
 
-.nav-header .link:focus,
-.nav-header .link:hover {
-    color: var(--bacraund-color-button)
-}
-
-.adres-header a {
+.adres-headerr {
     color: var(--p-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
 }
 
-.adres-footer {
-    color: var(--p-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    font-style:normal;
-}
-
-.adres-footer:hover {
-    color: var(--bacraund-color-button);
-}
-
-.adres-header a:focus,
-.adres-header a:hover {
+.adres-headerr a:focus,
+.adres-headerr a:hover {
     color: var(--bacraund-color-button)
 }
-
-
-/* Hero  block */
+/* Hero */
 
 .hero {
     background-color: #2F303A;
+
+    height: 600px;
+    margin-bottom: 94px;
 }
 
 .hero-text {
@@ -110,13 +93,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--hero-white);
-    text-transform: uppercase;
+
+
 }
 
-
-
-/* Button Hero */
-
+/* Button all */
 
 .hero-button {
     font-family: 'Roboto';
@@ -127,8 +108,16 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
+
+
+    min-height: 50px;
+    width: 216px;
+
+    padding: 10px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     border: 0;
-    letter-spacing: 0.06em
 }
 
 .hero-button:focus,
@@ -136,6 +125,9 @@ body {
     background-color: var(--hero-white);
     color: var(--bacraund-color-button);
 }
+/*  /Hero button  */
+
+
 
 /* Button filtr */
 
@@ -149,7 +141,6 @@ body {
     border: 0;
     background-color: var(--hero-white);
     border-radius: 4px;
-    cursor: pointer;
 }
 
 .botton-filtr:focus, 
@@ -159,12 +150,7 @@ body {
 
 }
 
-.botton-filtr :focus,
-.botton-filtr :hover {
-    cursor: pointer;
-    background-color: var(--bacraund-color-button);
-    color: aqua;
-}
+/* /Button filtr */
 
 
 
@@ -176,15 +162,16 @@ body {
     font-size: 14px;
     line-height: 1.4;
     text-transform: uppercase;
+    color: var(--brand-color);
+
+    margin-bottom: 10px;
 }
 
-.size-info-p {
-    color: var(--p-color);
-    font-size: 14px;
-    line-height: 1.7;
-    font-weight: normal;
-
+.info-p {
+    margin-bottom: 94px;
 }
+
+
 
 /* Portfolio */
 
@@ -194,54 +181,82 @@ body {
     line-height: 1.16;
     text-align: center;
     color: var(--brand-color);
+
+    margin-bottom: 50px;
+}
+
+.us-img {
+    margin-bottom: 188px;
+}
+
+.us-team {
+    margin-bottom: 94px;
+}
+
+.us-team img {
+    margin-bottom: 30px;
+}
+
+.us-team li {
+    width: 270px;
+    min-height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .delopers {
     font-weight: 500;
     font-size: 16px;
-    color: var(--brand-color);
     line-height: 1.18;
+    color: var(--brand-color);
+
+    margin-bottom: 10px;
 }
 
 .delopers-p {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.9;
+
+    margin-bottom: 30px;
 }
 
 
 
-.logo-footer {
-    color: var(--hero-white);
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+/* Button Filtr */
+
+
+.botton-filtr {
+    cursor: pointer;
 }
 
-.str {
-    color: var(--hero-white);
-    font-style:normal;
-}
-
-.str:hover {
-    color: var(--bacraund-color-button);
-}
-
-.footer-all {
-    background-color: var(--fon)
+.botton-filtr :focus,
+.botton-filtr :hover {
+    cursor: pointer;
+    background-color: var(--bacraund-color-button);
+    color: aqua;
 }
 
 /* Menu portfolio */
 
-.menu-p {
-    color: var(--p-color);
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.87;
+.menu {
+    margin-top: 34px;
 }
 
-.menu-h2 {
+.menu li:hover {
+    border: 1px solid #EEEEEE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-p {
+    color: var(--p-color);
+    font-size: 16px;
+    line-height: 1.87;
+    text-decoration:none;
+
+    margin-top: 4px;
+}
+
+.menu-h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.77;
@@ -249,8 +264,60 @@ body {
     list-style:none;
     text-decoration:none;
     color: var(--brand-color);
+
+    margin-top: 20px;
 }
 
 .filtr {
-     display: none;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+     
 }
+
+
+
+/* Footer portfolio */
+
+.logo-footer {
+    color: var(--hero-white);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    margin-left: 215px;
+}
+
+.adres-footer {
+    color: var(--p-color);
+    font-style: normal;
+}
+
+.addres .addres-ul {
+    margin-left: 215px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.addres-ul li {
+    margin-bottom: 9px;
+}
+
+.addres-ul :hover {
+    color: var(--bacraund-color-button);
+}
+
+.str {
+    color: var(--hero-white);
+    font-style:normal;
+}
+
+.footer-all {
+    background-color: var(--fon);
+    width: 1600px;
+    min-height: 252px;
+    padding: 60px;
+    margin-top: 94px;
+}
+
