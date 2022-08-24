@@ -23,7 +23,8 @@ body {
 
 .list {
     text-decoration: none;
-    list-style:none;
+    list-style: none;
+    color: currentColor;
 }
 
 /*  Reset */
@@ -52,18 +53,19 @@ h1, h2, h3, h4, h5, h6, p {
 
 .menu-nav {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-around;
-    margin: 25px;
-}
 
-.site-nav {
-    display: flex;
     margin: 0;
-
+    padding: 0;
 }
 
-.site-nav .item:not(:last-child) {
+.item {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.menu-nav .item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -86,12 +88,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Nav adress */
 
-.addres-item {
-    display: flex;
-}
 
-.addres-item .item + .item {
-    margin-left: 50px;
+.adres-headerr {
+    margin: 0;
 }
 
 .adres-headerr {
@@ -100,7 +99,8 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    margin: 0;
+    display: flex;
+
 }
 
 .adres-headerr a:focus,
@@ -111,10 +111,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .hero {
     background-color: #2F303A;
-
     height: 600px;
     margin-bottom: 94px;
 }
+
 
 .hero-text {
     font-weight: 900;
@@ -123,9 +123,8 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--hero-white);
-
-
 }
+
 
 /* Button all */
 
@@ -139,15 +138,12 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 16px;
     line-height: 1.8;
 
-
     min-height: 50px;
-    width: 216px;
 
     padding: 10px 32px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border: 0;
 }
 
 .hero-button:focus,
@@ -188,7 +184,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .progres {
     display: flex;
-    
     padding: 0;
 }
 
@@ -207,7 +202,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 94px;
 }
 
-.info-flex {
+.info-flex:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -223,16 +218,23 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 50px;
 }
 
-.us-img {
-    margin-bottom: 188px;
-}
 
 .us-team {
     margin-bottom: 94px;
 }
 
-.us-team img {
-    margin-bottom: 30px;
+.img-work {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    padding-bottom: 94px;
+}
+
+.us-team {
+    display: flex;
+    margin-left: 215px;
+    gap: 30px;
+    padding: 0;
 }
 
 .us-team li {
