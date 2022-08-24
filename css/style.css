@@ -40,13 +40,34 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    margin-right: 50px;
     }
 
 .logoweb {
     color: var(--bacraund-color-button);
 }
 
+
 /* Naw Header */
+
+.menu-nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.site-nav {
+    display: flex;
+    margin: 0;
+
+}
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
 
 .link {
     color: var(--brand-color);
@@ -65,12 +86,21 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Nav adress */
 
+.addres-item {
+    display: flex;
+}
+
+.addres-item .item + .item {
+    margin-left: 50px;
+}
+
 .adres-headerr {
     color: var(--p-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
+
+    margin: 0;
 }
 
 .adres-headerr a:focus,
@@ -156,6 +186,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* TEXT MAIN */
 
+.progres {
+    display: flex;
+    
+    padding: 0;
+}
+
 .size-info {
     color: var(--brand-color);
     font-weight: 700;
@@ -171,7 +207,9 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 94px;
 }
 
-
+.info-flex {
+    margin-right: 30px;
+}
 
 /* Portfolio */
 
