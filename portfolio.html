@@ -11,30 +11,48 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,400&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!--SiteBar-->
-    <header class="page-header">
-      <nav>
-        <a class="logo list" lang="en" href="/"
-          ><span class="logoweb">Web</span>Studio</a
-        >
-        <ul class="list">
-          <li><a class="link" href="/index.html">Студія</a></li>
-          <li><a class="link active" href="/portfolio.html">Портфоліо</a></li>
-          <li><a class="link" href="/">Контакти</a></li>
-        </ul>
-      </nav>
-      <ul class="adres-headerr list">
-        <li>
-          <a class="list link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a class="list link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+    <header>
+      <div class="header-container container">
+        <nav>
+          <ul class="heder-list list">
+            <li class="item">
+              <a class="logo list" lang="en" href="/"
+                ><span class="logoweb">Web</span>Studio</a
+              >
+            </li>
+            <li class=""><a class="item link" href="/index.html">Студія</a></li>
+            <li class="">
+              <a class="item link active" href="/portfolio.html">Портфоліо</a>
+            </li>
+            <li class=""><a class="item link" href="/">Контакти</a></li>
+          </ul>
+        </nav>
+        <div>
+          <ul class="adres-headerr heder-list-con list">
+            <li class=" ">
+              <a class="list item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="">
+              <a class="list item" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <!--All info + filtr-->
@@ -42,139 +60,150 @@
     <main>
       <section class="main">
         <div class="container">
-        <h2 class="filtr">filtr</h2>
-        <ul class="button list">
-          <li><button class="botton-filtr" type="button">Усі</button></li>
-          <li><button class="botton-filtr" type="button">Веб-сайт</button></li>
-          <li><button class="botton-filtr" type="button">Додатки</button></li>
-          <li><button class="botton-filtr" type="button">Дизайн</button></li>
-          <li><button class="botton-filtr" type="button">Маркетинг</button></li>
+          <h2 class="filtr">filtr</h2>
+          <ul class="button filtr-flex list">
+            <li class="">
+              <button class="botton-filtr flex" type="button">Усі</button>
+            </li>
+            <li class="">
+              <button class="botton-filtr flex" type="button">Веб-сайт</button>
+            </li>
+            <li class="">
+              <button class="botton-filtr flex" type="button">Додатки</button>
+            </li>
+            <li class="">
+              <button class="botton-filtr flex" type="button">Дизайн</button>
+            </li>
+            <li class="">
+              <button class="botton-filtr flex" type="button">Маркетинг</button>
+            </li>
 
-          <!--Info block-->
+            <!--Info block-->
 
-          <li>
-            <ul class="menu list">
-              <li class="menu-tehno">
-                <a class="link " href="">
-                  <img
-                    src="./images/page2/page8.jpg"
-                    alt="laptop"
-                    width="370"
-                    height="295"
-                  />
-                  <h3 class="menu-h3">Технокряк</h3>
-                  <p class="menu-p">Веб-сайт</p>
-                </a>
-              </li>
-              <li class="menu-disayn">
-                <a class="link" href="">
-                  <img
-                    src="./images/page2/page1.jpg"
-                    alt="bascetbal"
-                    width="370"
-                    height="295"
-                  />
-                  <h3 class="menu-h3">Постер New Orlean vs Golden Star</h3>
-                  <p class="menu-p">Дизайн</p>
-                </a>
-              </li>
-              <li class="menu-restoran">
-                <a class="link" href="">
-                  <img
-                    src="./images/page2/page2.jpg"
-                    alt="fishpage"
-                    width="370"
-                    height="295"
-                  />
-                  <h3 class="menu-h3">Ресторан Seafood</h3>
-                  <p class="menu-p">Додаток</p>
-                </a>
-              </li>
-              <li class="menu-market">
-                <a class="link" href="">
-                  <img
-                    src="./images/page2/page3.jpg"
-                    alt="lsten"
-                    width="370"
-                    height="295"
-                  />
-                  <h3 class="menu-h3">Проєкт Prime</h3>
-                  <p class="menu-p">Маркетинг</p>
-                </a>
-              </li>
-              <li class="menu-proekt">
-                <a class="link" href="">
-                  <img
-                    src="./images/page2/page4.jpg"
-                    alt="box"
-                    width="370"
-                    height="295"
-                  />
-                  <h3 class="menu-h3">Проєкт Boxes</h3>
-                  <p class="menu-p">Додаток</p>
-                </a>
-              </li>
-              <li class="menu-web">
-                <a class="link" href="">
-                  <img
-                    src="./images/page2/page9.jpg"
-                    alt="imac"
-                    width="370"
-                    height="295"
-                  />
-                  <h3 class="menu-h3">Inspiration has no Borders</h3>
-                  <p class="menu-p">Веб-сайт</p>
-                </a>
-              </li>
-              <li class="menu-limited">
-                <a class="link" href="">
-                  <img
-                    src="./images/page2/page5.jpg"
-                    alt="book"
-                    width="370"
-                    height="295"
-                  />
-                  <h3 class="menu-h3">Видання Limited Edition</h3>
-                  <p class="menu-p">Дизайн</p>
-                </a>
-              </li>
-              <li class="menu-mark">
-                <a class="link" href="">
-                  <img
-                    src="./images/page2/page6.jpg"
-                    alt="sale"
-                    width="370"
-                    height="295"
-                  />
-                  <h3 class="menu-h3">Проєкт LAB</h3>
-                  <p class="menu-p">Маркетинг</p>
-                </a>
-              </li>
-              <li class="menu-busines">
-                <a class="link" href="">
-                  <img
-                    src="./images/page2/page7.jpg"
-                    alt="deloper"
-                    width="370"
-                    height="295"
-                  />
-                  <h3 class="menu-h3">Growing Business</h3>
-                  <p class="menu-p">Додаток</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+            <li class="">
+              <ul class="menu card-set list">
+                <li class="menu-tehno items">
+                  <a class="link" href="">
+                    <img
+                      src="./images/page2/page8.jpg"
+                      alt="laptop"
+                      width="370"
+                      height="295"
+                    />
+                    <h3 class="menu-h3">Технокряк</h3>
+                    <p class="menu-p">Веб-сайт</p>
+                  </a>
+                </li>
+                <li class="menu-disayn items">
+                  <a class="link" href="">
+                    <img
+                      src="./images/page2/page1.jpg"
+                      alt="bascetbal"
+                      width="370"
+                      height="295"
+                    />
+                    <h3 class="menu-h3">Постер New Orlean vs Golden Star</h3>
+                    <p class="menu-p">Дизайн</p>
+                  </a>
+                </li>
+                <li class="menu-restoran items">
+                  <a class="link" href="">
+                    <img
+                      src="./images/page2/page2.jpg"
+                      alt="fishpage"
+                      width="370"
+                      height="295"
+                    />
+                    <h3 class="menu-h3">Ресторан Seafood</h3>
+                    <p class="menu-p">Додаток</p>
+                  </a>
+                </li>
+                <li class="menu-market items">
+                  <a class="link" href="">
+                    <img
+                      src="./images/page2/page3.jpg"
+                      alt="lsten"
+                      width="370"
+                      height="295"
+                    />
+                    <h3 class="menu-h3">Проєкт Prime</h3>
+                    <p class="menu-p">Маркетинг</p>
+                  </a>
+                </li>
+                <li class="menu-proekt items">
+                  <a class="link" href="">
+                    <img
+                      src="./images/page2/page4.jpg"
+                      alt="box"
+                      width="370"
+                      height="295"
+                    />
+                    <h3 class="menu-h3">Проєкт Boxes</h3>
+                    <p class="menu-p">Додаток</p>
+                  </a>
+                </li>
+                <li class="menu-web items">
+                  <a class="link" href="">
+                    <img
+                      src="./images/page2/page9.jpg"
+                      alt="imac"
+                      width="370"
+                      height="295"
+                    />
+                    <h3 class="menu-h3">Inspiration has no Borders</h3>
+                    <p class="menu-p">Веб-сайт</p>
+                  </a>
+                </li>
+                <li class="menu-limited items">
+                  <a class="link" href="">
+                    <img
+                      src="./images/page2/page5.jpg"
+                      alt="book"
+                      width="370"
+                      height="295"
+                    />
+                    <h3 class="menu-h3">Видання Limited Edition</h3>
+                    <p class="menu-p">Дизайн</p>
+                  </a>
+                </li>
+                <li class="menu-mark items">
+                  <a class="link" href="">
+                    <img
+                      src="./images/page2/page6.jpg"
+                      alt="sale"
+                      width="370"
+                      height="295"
+                    />
+                    <h3 class="menu-h3">Проєкт LAB</h3>
+                    <p class="menu-p">Маркетинг</p>
+                  </a>
+                </li>
+                <li class="menu-busines items">
+                  <a class="link" href="">
+                    <img
+                      src="./images/page2/page7.jpg"
+                      alt="deloper"
+                      width="370"
+                      height="295"
+                    />
+                    <h3 class="menu-h3">Growing Business</h3>
+                    <p class="menu-p">Додаток</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!--adress footer-->
 
-    <footer >
+    <footer>
       <div class="footer-all">
         <a class="logo-footer list" lang="en" href="/"
-          ><span class= "logoweb">Web</span>Studio</a>
+          ><span class="logoweb">Web</span>Studio</a
+        >
         <address class="addres">
           <ul class="addres-ul list">
             <li>
@@ -188,7 +217,9 @@
               >
             </li>
             <li>
-              <a class="adres-footer list" href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="adres-footer list" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
             </li>
           </ul>
         </address>
