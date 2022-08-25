@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     margin-left: 215px;
     gap: 30px;
-    padding: 0;
+    zpadding: 0;
 }
 
 .us-team li {
