@@ -20,7 +20,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
-    /* outline: 2px solid tomato; */
+    outline: 2px solid tomato; 
 }
 
 .list {
@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     display: flex;
     align-items: center;
     width: 1600px;
+    height: 80px;
 }
 
 
@@ -127,6 +128,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--hero-white);
+
+    padding-top: 200px;
 }
 
 
@@ -148,6 +151,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+    margin-top: 30px;
+    margin-left: 692px;
 }
 
 .hero-button:focus,
@@ -189,23 +195,35 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .flex {
     display: block;
-    margin: 94px 8px 50px 0px;
-    padding: 7px 8px 7px 8px;
+     margin: 94px 8px 50px 0px;
+    /* padding: 7px 8px 7px 8px; */
+    padding: 0px 22px 0px 22px;
+    height: 40px;
 }
 /* /Button filtr */
 
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 /* TEXT MAIN */
 
 .progres {
     display: flex;
-
-    padding: 94px 0px 94px 0px;
+    gap: 30px;
 }
 
-.progres :not(:last-child) {
-    margin-right: 30px;
+.progres-div {
+    padding: 94px 0px 94px 0px;
 }
 
 .size-info {
@@ -218,12 +236,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding-bottom: 10px;
 }
 
-.info-p {
-    margin: 0;
-}
-
-.info-flex {
-    display: flex;
+.progres p {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    width: 270px;
 }
 
 /* Portfolio */
