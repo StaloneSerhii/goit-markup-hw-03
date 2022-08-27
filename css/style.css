@@ -203,11 +203,14 @@ img {
     border-radius: 4px;
 
     display: block;
-    margin-bottom: 50px;
-    padding: 0px 22px 0px 22px;
-    height: 40px;
+    padding: 6px 22px;
     margin-right: 8px;
 }
+
+.botton-filtr :last-child {
+    margin-right: 0;
+}
+
 
 .botton-filtr:focus, 
 .botton-filtr:hover {
@@ -220,7 +223,7 @@ img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    margin-bottom: 50px;
 }
 
 /* /Button filtr */
@@ -423,7 +426,6 @@ img {
   }
   
 .items {
-    outline: 2px solid teal;
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -437,7 +439,7 @@ img {
   }
 
 .items:hover {
-    background-color: #fff;
+    border: 1px var(--hero-white);
     border-radius: 4px;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -462,4 +464,3 @@ img {
 
     margin: 0px 24px 20px 24px;
 }
-
