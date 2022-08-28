@@ -423,13 +423,14 @@ img {
 .card-set {
     display: flex;
     flex-wrap: wrap;
+
+    
   }
   
 .items {
     /* flex-basis: calc(100% / 3); */
     margin-right: 30px; 
     margin-bottom: 30px;
-=
 }
 
 .items:nth-child(3n) {
