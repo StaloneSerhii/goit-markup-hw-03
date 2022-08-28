@@ -426,8 +426,10 @@ img {
   }
   
 .items {
-    margin-right: 30px;
+    /* flex-basis: calc(100% / 3); */
+    margin-right: 30px; 
     margin-bottom: 30px;
+=
 }
 
 .items:nth-child(3n) {
